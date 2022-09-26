@@ -1,0 +1,6 @@
+---
+# This Playbook would deploy VIM and Zip if they are missing
+
+- hosts: vim
+  roles:
+  - role: common
